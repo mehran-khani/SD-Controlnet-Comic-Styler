@@ -2,6 +2,16 @@
 
 This project leverages Stable Diffusion, ControlNet, and LoRAs to transform input images into a specific retro Western comic book style while preserving the original pose. It uses a two-stage process involving initial low-resolution generation guided by OpenPose and a subsequent high-resolution upscaling stage using ControlNet Tile.
 
+## Example Output
+
+Here are some examples generated using this pipeline:
+
+**Example 1:**
+![Retro Comic Style Output 1](examples/example-1.png)
+
+**Example 2:**
+![Retro Comic Style Output 2](examples/example-2.png)
+
 ## Project Status
 
 *   **Current Stage:** Functional prototype demonstrating the core pipeline.
